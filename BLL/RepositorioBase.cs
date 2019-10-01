@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -45,8 +46,9 @@ namespace BLL
             bool paso = false;
             try
             {
-                _contexto.Entry(entity).State = EntityState.Modified;
+                _contexto.Entry(entity).State = System.Data.Entity.EntityState.Modified;
                 if (_contexto.SaveChanges() > 0)
+                    if (_contexto.SaveChanges() > 0)
                 {
                     paso = true;
                 }
