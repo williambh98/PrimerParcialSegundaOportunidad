@@ -9,27 +9,19 @@
             <div class="panel-heading">Primer Parcial Segunda Oportunidad</div>
             <div class="panel-body">
                 <div class="form-horizontal col-md-12" role="form">
-                 <%--PagoId--%>
+                    <%--EstudianteID--%>
                     <div class="form-group">
                         <label for="IdTextBox" class="col-md-3 control-label input-sm">ID Pago: </label>
                         <div class="col-md-4">
                             <asp:TextBox class="form-control input-sm" TextMode="Number" ID="IdTextBox" Text="0" runat="server"></asp:TextBox>
                         </div>
                         <asp:Button class="col-md-1 btn btn-info btn-sm" ID="BuscarButton" runat="server" Text="Buscar" OnClick="BuscarButton_Click" />
-                         <label for="fechaTextBox" class="col-md-2 control-label input-sm">Fecha: </label>
+                        <label for="fechaTextBox" class="col-md-2 control-label input-sm">Fecha: </label>
                         <div class="col-md-2">
                             <asp:TextBox class="form-control" ID="fechaTextBox" TextMode="Date" runat="server"></asp:TextBox>
                         </div>
                     </div>
-                  
 
-                  <%--  <%-- Fecha
-                    <div class="form-group">
-                        <label for="fechaTextBox" class="col-md-3 control-label input-sm">Fecha: </label>
-                        <div class="col-md-4">
-                            <asp:TextBox class="form-control" ID="fechaTextBox" TextMode="Date" runat="server"></asp:TextBox>
-                        </div>
-                    </div>--%>
                     <%--Estudiante--%>
                     <div class="form-group">
                         <label for="Estudiante" class="col-md-3 control-label input-sm">Estudiante: </label>
@@ -44,6 +36,7 @@
                         </div>
                     </div>
 
+                    <%--  Categoria--%>
                     <div class="form-group">
                         <label for="Categoria:" class="col-md-3 control-label input-sm">Categoria: </label>
                         <div class="col-md-4">
@@ -57,6 +50,7 @@
                         </div>
                     </div>
 
+                    <%-- Valor--%>
                     <div class="form-group">
                         <label for="Valor:" class="col-md-3 control-label input-sm">Valor: </label>
                         <div class="col-md-4">
@@ -64,6 +58,7 @@
                         </div>
                     </div>
 
+                    <%-- Logrado--%>
                     <div class="form-group">
                         <label for="Logrado:" class="col-md-3 control-label input-sm">Logrado: </label>
                         <div class="col-md-4">
@@ -92,6 +87,7 @@
                             </asp:GridView>
                         </div>
                     </div>
+                    <%--Total--%>
                     <div class="form-group">
                         <label for="Total:" class="col-md-3 control-label input-sm">Total: </label>
                         <div class="col-md-4">
@@ -116,7 +112,7 @@
             </div>
         </div>
     </div>
-    
+
 
 
 </asp:Content>
