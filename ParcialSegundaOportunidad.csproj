@@ -110,6 +110,8 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
+    <None Include="Properties\PublishProfiles\PrimerParcialSegOp - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\PrimerParcialSegOp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
